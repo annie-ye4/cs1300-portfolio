@@ -1,3 +1,5 @@
+/*App.css*/
+
 .app-container {
   background-color: #8894cd; /* Dark green background */
   color: black; /* Light green text */
@@ -10,7 +12,7 @@
 
 .navbar {
   background-color: #2D336B; /* Dark green navbar */
-  padding: 25px;
+  padding: 20px;
   position: fixed;
   top: 0;
   left: 0;
@@ -19,17 +21,6 @@
   justify-content: center;
   align-items: center;
   z-index: 10;
-}
-
-.navbar a {
-  color: #ffffff;
-  text-decoration: none;
-  margin: 0 15px;
-  font-weight: bold;
-}
-
-.navbar a:hover {
-  color: #a8add5;
 }
 
 .content {
@@ -90,14 +81,57 @@
 }
 
 .project-section{
-  height: 100vh;
+  background: linear-gradient(to bottom, #8894cd, rgba(180, 127, 169, 0.976), #8894cd);
+  height: 550vh;
 }
 
 .project-section h1{
-  padding-top: 80px; 
+  padding-top: 20px;
+  margin-top: 80px; 
   font-size: 3em;
   font-weight: bold;
+  /* color: rgb(240, 239, 239); */
+  color: black;
 }
+
+.project-section .video-container {
+  display: flex;
+  flex-wrap: nowrap; /* Prevents stacking */
+  justify-content: space-between; /* Spaces out videos */
+  align-items: center;
+  gap: 20px; /* Spacing between videos */
+  padding: 20px;
+  max-width: 1400px; /* Ensures it spreads across the page */
+  margin: 0 auto; /* Centers the row */
+  overflow: hidden; /* Prevents unwanted wrapping */
+}
+
+.project-section   .video-card {
+  flex: 1; /* Makes sure they take equal space */
+  max-width: 30%; /* Each video card should take 30% of the row */
+  text-align: center;
+  background-color: #fff2f2;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  /* height: 300px; */
+}
+
+.project-section   .video-card video {
+  width: 100%; /* Fills the container */
+  height: 280px; /* Forces a uniform height */
+  object-fit: cover; /* Prevents distortion */
+  border-radius: 5px;
+  padding-top: 10px; 
+}
+
+.project-section   .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align:center;
+}
+
 .project-container {
   display: flex;
   align-items: center;
@@ -106,46 +140,319 @@
   max-width: 1400px;
   margin-top: 50px;
   font-weight: bold;
+  margin: 0 auto;
 }
 
-.projects-left .title{
+.acc-comp .title{
   text-decoration: underline;
 }
 
-.projects-left {
-  margin-left: 70px;
-  padding-left: 30px;
-  flex: 1;
+.acc-comp {
   font-size: 1.2em;
   background-color: #fff2f2;
-  padding: 20px;
   border-radius: 10px;
-  width: 40%;
+  width: 50%;
+  margin: 0 auto; /* Center the component */
+  margin-top: 20px; 
+  padding-bottom: 30px;
 }
 
-.projects-left .description {
+.acc-comp:hover {
+  background-color: #efe3e3;
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.acc-comp .description {
   font-size: 0.9em;
   text-align: left;
 }
 
-.projects-right {
+.project-section .description{
+  font-size: 1.1em;
+  margin: 40px 290px;
+  padding-bottom: 20px; 
+  /* color: rgb(240, 239, 239); */
+  color: black;
+}
+
+/* .projects-right {
   flex: 1;
   display: flex;
   justify-content: flex-end;
   padding-left: 100px;
-}
+} */
 
-.projects-right img {
-  max-width: 80%;
+.acc-comp img {
+  max-width: 50%;
   height: auto;
   border-radius: 10px;
   background-color: #fff2f2;
   padding: 40px;
 }
+
 .about-section{
   padding-top: 20px;
   height: 95vh; 
+  /* background: linear-gradient(to bottom, rgba(180, 127, 169, 0.976), #8894cd); */
 }
 .about-section h1{
   font-size: 3em;
+}
+
+.navbar button{
+  font-size: 1.1em;
+  background-color: #2D336B;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.navbar button:hover{
+  color:#dddddd;
+  cursor: pointer;
+}
+
+.project-section .reflection-box {
+  background-color: #fff2f2;
+  padding: 20px;
+  margin: 30px auto;
+  width: 80%;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  max-height: 300px; /* Initial height */
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, padding 0.3s ease-in-out;
+}
+
+.project-section .reflection-box.expanded {
+  max-height: 600px; /* Expands to show full text */
+  padding: 20px;
+}
+
+.project-section .reflection-text {
+  font-size: 1.1em;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.project-section .expand-button {
+  background-color: #2D336B;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  font-size: 1em;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.project-section .expand-button:hover {
+  background-color: #1d224f;
+}
+
+/* Table container */
+.project-section .table-container {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff2f2;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  margin: 0 130px;
+  margin-bottom: 30px; 
+}
+
+/* Table title */
+.project-section .table-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+/* Table styles */
+.project-section .reflection-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.project-section .reflection-table th {
+  background-color: #d5b6b6;
+  padding: 12px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #ddd;
+  color: black;
+}
+
+.project-section .reflection-table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+  background-color: rgb(250, 250, 250);
+}
+
+/* Bold and highlighted row labels */
+.project-section .reflection-table .category {
+  font-weight: bold;
+  background-color: #d5b6b6;
+  width: 20%;
+  color: black;
+}
+
+/* Alternating row colors */
+.project-section .reflection-table tbody tr:nth-child(odd) {
+  background-color: #fafafa;
+}
+
+/* Container for two side-by-side components */
+.project-section .side-by-side-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Individual image box */
+.project-section .image-box {
+  text-align: center;
+  width: 35%;
+  background-color: #fff2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project-section .image-box-2 {
+  text-align: center;
+  width: 35%;
+  background-color: #fff2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding-top: 55px; 
+  padding-bottom: 55px; 
+}
+
+
+/* Top image */
+.project-section .top-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Bottom image */
+.project-section .bottom-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+/* Arrow */
+.project-section .arrow {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #555;
+}
+
+.project-section .model-desc{
+  text-align: left;
+}
+
+/* Container for two side-by-side components */
+.project-section .side-by-side-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+/* Individual image box */
+.project-section .image-box {
+  text-align: center;
+  width: 45%;
+  background-color:#fff2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Top and bottom images */
+.project-section .top-image, .bottom-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+
+/* New Component: Left to Right Transformation */
+.project-section .left-right-container {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #fff2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+/* Title */
+.project-section .component-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Left and Right Side Layout */
+.project-section .left-right-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Subtitle (Above Images) */
+.project-section .subtitle {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Side Images */
+.project-section .side-image {
+  width: 570px;
+  height: auto;
+  border-radius: 8px;
+}
+
+/* Arrow in the Middle */
+.project-section .arrow-middle {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 20px;
+  color: #333;
+}
+
+.project-section .figma-desc{
+  text-align: left;
+  margin: 40px 100px;
+}
+
+.project-section .heading, .about-section .heading{
+  /* background: #3e468d; */
+  /* background: #fff2f2; */
+  /* border-radius: 12px; */
+  /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
+  /* text-align: center;
+  margin-top: 20px;  */
 }

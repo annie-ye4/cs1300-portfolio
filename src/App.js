@@ -5,20 +5,29 @@ import "./App.css";
 import Home from "./sections/Home";
 import Project from "./sections/Project";
 import About from "./sections/About";
-import Contact from "./sections/Contact";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div className="app-container">
-      <Navbar />
-      <div className="content">
-        <Home />
-        <Project />
-        <About />
-        {/* <Contact /> */}
+    <Router>
+      <div className="app-container">
+        <Navbar />
+        <Routes>
+          {/* Home page will have all sections, making it scrollable */}
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+                <Project />
+                <About />
+              </>
+            }
+          />
+          {/* Separate page for Accessible Components */}
+        </Routes>
       </div>
-      {/* <Footer /> */}
-    </div>
+    </Router>
   );
 }
 
