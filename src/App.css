@@ -375,17 +375,6 @@
   align-items: center;
   margin-top: 40px;
 }
-
-/* Individual image box */
-.project-section .image-box {
-  text-align: center;
-  width: 45%;
-  background-color:#fff2f2;
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
 /* Top and bottom images */
 .project-section .top-image, .bottom-image {
   width: 100%;
