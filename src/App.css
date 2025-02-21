@@ -82,7 +82,7 @@
 
 .project-section{
   background: linear-gradient(to bottom, #8894cd, rgba(180, 127, 169, 0.976), #8894cd);
-  height: 550vh;
+  height: 100%;
 }
 
 .project-section h1{
