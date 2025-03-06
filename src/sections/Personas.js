@@ -144,7 +144,7 @@ function Personas() {
       <div className="personas">
   <h2>Personas</h2>
   <p className="caption">
-    Based on the interviews, I created two personas to represent the primary users of the kiosk. The personas will represent
+    Based on the interviews, I created two personas to represent the primary user experiences of the kiosk. The personas will represent
     the spectrum of users I observed and interviewed. 
   </p>
 
