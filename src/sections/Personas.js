@@ -180,6 +180,27 @@ function Personas() {
     </p>
     <img src="storyboard.png" alt="Storyboard" />
   </div>
+
+  <div className="conclusion">
+    <h2>Conclusion</h2>
+    <p className="caption">
+    Picking up a package should be quick and seamless, but for many Brown University students, the 
+    mailroom kiosk adds unnecessary frustration. My study revealed that swiping issues are the biggest hurdle—
+    students often need multiple attempts or switch kiosks to log in. Other than that, most navigate the 
+    system efficiently, relying on trial and error rather than needing to seek help.
+    </p>
+    <p className="caption">
+
+    A surprising finding was that there were definitely some user errors that slowed down the experience for
+    users. For example, some users would swipe their card too quickly or too slowly, or in the wrong direction,
+    which would cause the system to not recognize their card. One person would also frequently forget to click "Next". 
+    </p>
+    <p className="caption">
+    Ultimately, small usability issues can create big inefficiencies. Improving swipe recognition or 
+    offering alternative login methods could make the system as smooth as intended—because grabbing a 
+    package shouldn’t feel like troubleshooting a glitch.  
+    </p>
+  </div>
     </section>
   );
 }

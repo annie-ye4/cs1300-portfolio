@@ -647,3 +647,15 @@
 .personas-section{
   background: linear-gradient(to bottom, #8894cd, #88b8cd, #8894cd);
 }
+
+.personas-section .conclusion{
+  margin: 40px 200px;
+  padding-bottom: 20px; 
+  background-color: #fff9f2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.personas-section .conclusion .caption{
+  text-align: left;
+}
