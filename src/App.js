@@ -5,6 +5,7 @@ import "./App.css";
 import Home from "./sections/Home";
 import Project from "./sections/Project";
 import About from "./sections/About";
+import Personas from "./sections/Personas";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
               <>
                 <Home />
                 <Project />
+                <Personas />
                 <About />
               </>
             }

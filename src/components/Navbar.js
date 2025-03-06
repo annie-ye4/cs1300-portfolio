@@ -12,6 +12,7 @@ function Navbar() {
     <nav className="navbar">
       <button onClick={() => scrollToSection("home")}>home</button>
       <button onClick={() => scrollToSection("project")}>accessible components</button>
+      <button onClick={() => scrollToSection("personas")}>personas & storyboarding</button>
       <button onClick={() => scrollToSection("about")}>about</button>
     </nav>
   );

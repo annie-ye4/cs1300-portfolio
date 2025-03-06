@@ -177,6 +177,13 @@
   color: black;
 }
 
+.personas-section .description{
+  font-size: 1.1em;
+  margin: 40px 290px;
+  padding-bottom: 20px; 
+  color: black;
+}
+
 /* .projects-right {
   flex: 1;
   display: flex;
@@ -444,4 +451,199 @@
   /* box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2); */
   /* text-align: center;
   margin-top: 20px;  */
+}
+
+.personas-section h1{
+  padding-top: 20px;
+  margin-top: 80px; 
+  font-size: 3em;
+  font-weight: bold;
+  /* color: rgb(240, 239, 239); */
+  color: black;
+}
+
+.personas-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.personas-section .carousel-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.personas-section .carousel {
+  background-color: #fff9f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 700px; 
+  height: 500px; 
+}
+
+.personas-section .carousel img {
+  width: 550px;
+  height: auto;
+  object-fit: cover;  /* Ensures images keep the same aspect ratio */
+  /* border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+  display: block;
+  margin: 0 auto;
+}
+
+.personas-section .caption {
+  padding-top: 15px; 
+  font-size: 18px;
+  color: black;
+  margin-top: 10px;
+  margin-left: 40px; 
+  margin-right: 40px; 
+}
+
+.personas-section .arrow {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  color: #333;
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.personas-section .arrow.left {
+  left: 300px;
+}
+
+.personas-section .arrow.right {
+  right: 300px;
+}
+
+.personas-section .arrow:hover {
+  color: #000;
+}
+
+.personas-section .interview-section{
+  margin: 40px 200px;
+  padding-bottom: 20px; 
+  background-color: #fff9f2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.personas-section h2{
+  padding-top: 20px; 
+}
+
+.personas-section .interview-questions {
+  display: flex;
+  flex-wrap: nowrap; /* Prevents stacking */
+  justify-content: space-between; /* Spaces out videos */
+  align-items: center;
+  gap: 20px; /* Spacing between videos */
+  padding: 20px;
+  max-width: 1400px; /* Ensures it spreads across the page */
+  margin: 0 auto; /* Centers the row */
+  overflow: hidden; /* Prevents unwanted wrapping */
+}
+
+.personas-section   .question {
+  height: 240px; 
+  flex: 1; /* Makes sure they take equal space */
+  max-width: 25%; /* Each video card should take 30% of the row */
+  text-align: center;
+  background-color: #f5e8da;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  /* height: 300px; */
+}
+
+.personas-section .the-question{
+  font-weight: bold;
+}
+
+.personas-section .answer{
+  font-size: 15px;
+  margin-top: 10px;
+  text-align: left;
+}
+
+.personas-section .personas {
+  background-color: #fff9f2;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-top: 50px; 
+}
+
+.personas-section .persona {
+  flex: 1; /* Makes sure both take equal space */
+  max-width: 45%; /* Prevents them from stretching too much */
+  background-color: #f5e8da;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.personas-section .personas-description {
+  font-size: 15px;
+  color: black;
+  margin-bottom: 10px;
+}
+.personas-section .personas-container {
+  display: flex;
+  justify-content: space-between; /* Ensures side-by-side layout */
+  align-items: center;
+  gap: 20px; /* Adds spacing between Felix & Ella */
+  margin-top: 20px;
+}
+
+.personas-section .persona img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px; 
+}
+
+.personas-section .storyboard{
+  margin: 40px 120px;
+  margin-top: 60px; 
+  padding-bottom: 20px; 
+  background-color: #fff9f2;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-top: 10px; 
+}
+
+.personas-section .storyboard .caption{
+  margin: 40px 200px;
+}
+
+
+.personas-section .storyboard img {
+  max-width: 75%;
+  height: auto;
+  border-radius: 10px;
+  background-color: #f5e8da;
+  padding: 30px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px; 
+  margin-bottom: 40px; 
+}
+
+.personas-section{
+  background: linear-gradient(to bottom, #8894cd, #88b8cd, #8894cd);
 }
