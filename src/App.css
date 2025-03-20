@@ -900,7 +900,9 @@
   width: 100%; 
   max-width: 700px; 
   border-radius: 10px;
-  padding-bottom: 20px;
+  padding: 20px;
+  background-color: #b6d5c1;
+  margin-bottom: 30px;
 }
 
 .redesign-section .conclusion-container {

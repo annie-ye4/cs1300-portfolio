@@ -102,12 +102,12 @@ function About() {
 
                 - Hamburger menu on the left corner. <br></br>
                 - Clicking triggers a smooth dropdown animation (ease-in-out).  <br></br>
-                - Bacaro log in the center. <br></br>
+                - Bacaro logo is centrally placed for brand recognition. <br></br>
                 - Phone icon on the right that initiates a tel: link.
         </p>
           <p>
             <strong>Hero Section</strong><br></br>
-            - "Welcome to Bacaro" heading is centered with optimized spacing. <br></br>
+            - "Welcome to Bacaro" heading is centered and consistently spaced across all screens. <br></br>
             - Call-to-action buttons have a hover effect (gray background) and are stacked. <br></br>
             - Blurred background image enhances visual appeal. <br></br>
             - Operating hours as white text on a dark overlay ensures contrast & accessibility. </p>
@@ -149,6 +149,7 @@ function About() {
             <p>
             <strong>Twitter Section</strong><br></br>
             - Tweet cards with 10px margin and larger font, scrollable horizontally (overflow-x: scroll).
+            - Horizontal scrolling remains the same across screen sizes for consistency.
           </p>
         </div>
         <div className="tablet-video-wrapper">
@@ -279,7 +280,7 @@ function About() {
       desktop screens. Below is a preview showcasing the layout on different devices.
         </p>
         <video autoPlay loop muted playsInline>
-            <source src="responsive-demo.mov" type="video/mp4" />
+            <source src="responsive-demo-2.mov" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
       </div>
