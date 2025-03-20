@@ -719,7 +719,7 @@
 }
 
 .redesign-section{
-  background: linear-gradient(to bottom, #8894cd, #88cdbb, #8894cd);
+  background: linear-gradient(to bottom, #8894cd, #78a897, #8894cd);
 }
 
 .personas-section .conclusion{
@@ -732,4 +732,190 @@
 
 .personas-section .conclusion .caption{
   text-align: left;
+}
+
+.redesign-section .video-text-container, .redesign-section .tablet-text-container, .redesign-section .laptop-text-container{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 900px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f1fffc;
+  padding: 20px; 
+}
+
+.redesign-section .tablet-text-container{
+  width: 1100px; 
+}
+
+.redesign-section .laptop-text-container{
+  width: 1300px; 
+}
+
+.redesign-section .video-wrapper {
+  flex: 1;  /* Reduce the video portion */
+  max-width: 40%; /* Shrink the video container */
+  display: flex;
+  justify-content: center;
+
+}
+
+.redesign-section .video-wrapper video {
+  width: 100%; /* Make the video fill its container */
+  max-width: 300px; /* Adjust size of the video */
+  border-radius: 8px;
+}
+
+.redesign-section .text-wrapper {
+  flex: 2; /* Make the text portion take up more space */
+  max-width: 60%;
+  text-align: left;
+}
+
+.redesign-section .text-wrapper h2 {
+  margin-bottom: 10px;
+  text-align: center;
+  text-decoration: underline; 
+}
+
+.redesign-section .text-wrapper p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.personas-section .phone-mockup{
+  height: 400px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  background-color: #b6d5c1;
+}
+
+.video-wrapper video {
+  width: 50%; /* Adjust this value to change the video size */
+  max-width: 200px; /* Ensures the video does not get too large */
+  border-radius: 8px;
+}
+
+.redesign-section .tablet-video-wrapper video {
+  width: 100%; /* Make the video fill its container */
+  max-width: 350px; /* Adjust size of the video */
+  border-radius: 8px;
+  padding: 20px; 
+}
+
+.redesign-section .laptop-video-wrapper video {
+  width: 130%; /* Make the video fill its container */
+  max-width: 600px; /* Adjust size of the video */
+  border-radius: 8px;
+  padding: 20px; 
+}
+
+.redesign-section .visual-comparison-container {
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f1fffc;
+  padding: 20px; 
+}
+
+.redesign-section .visual-desc{
+  font-size: 17px;
+}
+
+
+.redesign-section .contrast-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; /* Spacing between elements */
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #b6d5c1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.redesign-section .contrast-image {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.redesign-section .contrast-image img {
+  width: 100%;
+  max-width: 450px; /* Adjust the image size */
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.redesign-section .contrast-image video {
+  width: 100%;
+  max-width: 450px; /* Adjust the image size */
+  /* border-radius: 8px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.redesign-section .contrast-arrow {
+  font-size: 40px;
+  font-weight: bold;
+}
+  
+.redesign-section .caption {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.redesign-section .responsive-container{
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f1fffc;
+  padding: 20px; 
+}
+
+.redesign-section .responsive-container p{
+  font-size: 17px;
+  padding: 20px 90px;
+}
+
+.redesign-section .responsive-container video{
+  width: 100%; 
+  max-width: 700px; 
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.redesign-section .conclusion-container {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f1fffc;
+  padding: 20px; 
+  text-align: left;
+}
+
+.redesign-section .conclusion-container h2{
+  text-align: center;
 }
