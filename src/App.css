@@ -85,7 +85,7 @@
   height: 100%;
 }
 
-.project-section h1{
+.project-section h1, .redesign-section h1{
   padding-top: 20px;
   margin-top: 80px; 
   font-size: 3em;
@@ -184,6 +184,13 @@
   color: black;
 }
 
+.redesign-section .description{
+  font-size: 1.1em;
+  margin: 40px 280px;
+  padding-bottom: 20px; 
+  color: black;
+}
+
 /* .projects-right {
   flex: 1;
   display: flex;
@@ -262,8 +269,36 @@
   background-color: #1d224f;
 }
 
+.redesign-section .tables-description-bottom{
+  font-size: 17px; 
+  text-align: left; 
+  padding: 20px 20px;
+}
+
+.redesign-section .design-guide-desc{
+  font-size: 17px; 
+  text-align: left; 
+  padding: 0px 100px;
+}
+
+.redesign-section .style-guide{
+  width: 80%;
+  padding: 30px 30px; 
+  background-color: #b6d5c1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+}
+
+.tables-description{
+  padding-bottom: 10px;
+  text-align: left;
+  padding-left: 20px;  
+  padding-right: 20px; 
+  font-size: 17px; 
+}
 /* Table container */
-.project-section .table-container {
+.project-section .table-container, .redesign-section .table-container {
   margin-top: 20px;
   padding: 20px;
   background-color: #fff2f2;
@@ -272,23 +307,50 @@
   overflow-x: auto;
   margin: 0 130px;
   margin-bottom: 30px; 
+  align-items: center;
+}
+
+.redesign-section .visual-design-guide{
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f2fffc;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-x: auto;
+  margin: 0 130px;
+  margin-bottom: 30px; 
+  align-items: center;
+}
+
+.redesign-section .table-container {
+  background-color: #f2fffc; 
 }
 
 /* Table title */
-.project-section .table-title {
+.project-section .table-title, .redesign-section .table-title {
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 15px;
 }
 
+.redesign-section .table-title {
+  padding-top: 20px; 
+}
+
 /* Table styles */
-.project-section .reflection-table {
+.project-section .reflection-table, .redesign-section .reflection-table {
   width: 100%;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
 }
 
-.project-section .reflection-table th {
+.redesign-section .reflection-table {
+  width: 100%;
+  table-layout: fixed; /* Ensures equal column widths */
+  margin: 0 auto;
+}
+
+.project-section .reflection-table, .redesign-section .reflection-table th {
   background-color: #d5b6b6;
   padding: 12px;
   text-align: center;
@@ -297,15 +359,23 @@
   color: black;
 }
 
-.project-section .reflection-table td {
+.redesign-section .reflection-table th {
+  background-color: #b6d5c1;
+  border: 1px solid #dddddd;
+}
+
+.project-section .reflection-table td, .redesign-section .reflection-table td {
   padding: 12px;
   border: 1px solid #ddd;
   text-align: left;
   background-color: rgb(250, 250, 250);
 }
 
+.redesign-section .reflection-table td {
+  background-color: rgb(255, 255, 255);
+}
 /* Bold and highlighted row labels */
-.project-section .reflection-table .category {
+.project-section .reflection-table .category, .redesign-section .reflection-table .category {
   font-weight: bold;
   background-color: #d5b6b6;
   width: 20%;
@@ -313,7 +383,7 @@
 }
 
 /* Alternating row colors */
-.project-section .reflection-table tbody tr:nth-child(odd) {
+.project-section .reflection-table tbody tr:nth-child(odd), .redesign-section .reflection-table tbody tr:nth-child(odd) {
   background-color: #fafafa;
 }
 
@@ -646,6 +716,10 @@
 
 .personas-section{
   background: linear-gradient(to bottom, #8894cd, #88b8cd, #8894cd);
+}
+
+.redesign-section{
+  background: linear-gradient(to bottom, #8894cd, #88cdbb, #8894cd);
 }
 
 .personas-section .conclusion{
