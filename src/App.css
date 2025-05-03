@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
 
 .app-container {
-  background-color: #8894cd; /* Dark green background */
+  background-color: #271f16; /* Dark green background */
   color: black; /* Light green text */
   font-family: 'Poppins', sans-serif;
   text-align: center;
@@ -12,7 +12,7 @@
 }
 
 .navbar {
-  background-color: #2D336B; /* Dark green navbar */
+  background-color: #271f16; /* Dark green navbar */
   padding: 20px;
   position: fixed;
   top: 0;
@@ -86,7 +86,9 @@
 }
 
 .project-section{
-  background: linear-gradient(to bottom, #8894cd, rgba(180, 127, 169, 0.976), #8894cd);
+  /* background: linear-gradient(to bottom, #8894cd, rgba(180, 127, 169, 0.976), #8894cd); */
+  background-color: #271f16;
+
   height: 100%;
 }
 
@@ -96,7 +98,7 @@
   font-size: 3em;
   font-weight: bold;
   /* color: rgb(240, 239, 239); */
-  color: black;
+  color: #efeeed;
 }
 
 .project-section .video-container {
@@ -179,21 +181,21 @@
   margin: 40px 290px;
   padding-bottom: 20px; 
   /* color: rgb(240, 239, 239); */
-  color: black;
+  color: #c4bfbb;
 }
 
 .personas-section .description{
   font-size: 1.1em;
   margin: 40px 290px;
   padding-bottom: 20px; 
-  color: black;
+  color: #c4bfbb;
 }
 
 .redesign-section .description{
   font-size: 1.1em;
   margin: 40px 280px;
   padding-bottom: 20px; 
-  color: black;
+  color: #c4bfbb;
 }
 
 /* .projects-right {
@@ -222,8 +224,8 @@
 
 .navbar button{
   font-size: 1.1em;
-  background-color: #2D336B;
-  color: #ffffff;
+  background-color: #271f16;
+  color: #efeeed;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -534,7 +536,7 @@
   font-size: 3em;
   font-weight: bold;
   /* color: rgb(240, 239, 239); */
-  color: black;
+  color: #efeeed;
 }
 
 .personas-section {
@@ -720,11 +722,14 @@
 }
 
 .personas-section{
-  background: linear-gradient(to bottom, #8894cd, #88b8cd, #8894cd);
+  /* background: linear-gradient(to bottom, #8894cd, #88b8cd, #8894cd); */
+  background-color: #271f16;
 }
 
 .redesign-section{
-  background: linear-gradient(to bottom, #8894cd, #78a897, #8894cd);
+  /* background: linear-gradient(to bottom, #8894cd, #78a897, #8894cd); */
+  background-color: #271f16;
+
 }
 
 .personas-section .conclusion{

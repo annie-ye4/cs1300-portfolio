@@ -10,7 +10,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <button onClick={() => scrollToSection("home")}>home</button>
+      <button onClick={() => window.location.href = "https://annieye.dev"}>annieye.dev</button>
       <button onClick={() => scrollToSection("project")}>accessible components</button>
       <button onClick={() => scrollToSection("personas")}>personas & storyboarding</button>
       <button onClick={() => scrollToSection("redesign")}>redesign</button>

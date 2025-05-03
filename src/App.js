@@ -23,7 +23,7 @@ function App() {
             element={
               <>
               <ScrollToHash />
-                <Home />
+                {/* <Home /> */}
                 <Project />
                 <Personas />
                 <Redesign />
