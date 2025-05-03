@@ -15,9 +15,9 @@ function Project() {
         <h1>Accessible Components</h1>
       <p className="description">
       Dropdown menus are a common UI element used to present options without cluttering the interface.
-       While they appear simple, their usability and accessibility can differ greatly across applications. 
+       While they seem simple, their usability and accessibility can differ across applications. 
        This study compares how dropdowns are implemented in Spotify, Slack, and Google Calendar, focusing 
-       on support for different input methods—mouse, keyboard, touch, and screen readers—to assess both 
+       on support for different input methods (mouse, keyboard, touch, and screen readers) to assess both 
        usability and inclusivity.
       </p>
       </div>
