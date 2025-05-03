@@ -27,7 +27,7 @@ function App() {
                 <Project />
                 <Personas />
                 <Redesign />
-                <About />
+                {/* <About /> */}
               </>
             }
           />
