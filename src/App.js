@@ -8,6 +8,8 @@ import About from "./sections/About";
 import Personas from "./sections/Personas";
 import Redesign from "./sections/Redesign";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScrollToHash from "./components/ScrollToHash"; // Import the helper
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
             path="/"
             element={
               <>
+              <ScrollToHash />
                 <Home />
                 <Project />
                 <Personas />
