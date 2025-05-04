@@ -137,8 +137,104 @@ and received positive feedback.
   Based on the feedback we received, we updated our prototype. Click below to watch a video walkthrough of our{" "}
   <a href="https://www.figma.com/design/cdmBPoEdaBVBXdPVAz6M8B/Bramble-Iterative-Design?node-id=0-1&p=f&t=seY70YvbVE7d5hPP-0" target="_blank" rel="noopener noreferrer">
     Figma prototype
-  </a>.
-</p>    </div>
+  </a>. (Note: I recorded the video walkthrough)
+</p>    
+        <video className="bramble-walkthrough" controls>
+          <source src="bramble-walkthrough.mov" type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div className="conclusion-containerp">
+        <h2>HiFi Protype Feedback & CEO Demo</h2>
+        <p>After developing our final prototype (part 4), we sent our prototype to the CEO for feedback.
+            We did not get a chance to implement the changes provided by the CEO but we greatly appreciated 
+            him taking the time to provide feedback and highlight it below. <p></p>
+            - The CEO <strong>suggested using a different secondary color</strong>, as Bramble berry doesn’t work well for backgrounds 
+            and should be used sparingly. We felt like the colors went well together but have liked to <strong>experiment 
+            with different color schema </strong>if we had more time.<br></br>
+            - He recommended <strong>clarifying the search bar functionality</strong> to better guide users on how to use it and 
+            highlight the three search queries offered by Bramble: by address, by link and by natural language search.<br></br>
+            - He noted that some parts of the UI, like filters and the expanded home view, could 
+            be <strong>simplified or made more visual to improve clarity and usability.</strong><br></br>
+            - Additionally, he appreciated the emphasis on visuals, especially the property display 
+            screen, and encouraged exploring video integration.<br></br>
+            - Additionally, he <strong>appreciated the emphasis on visuals, especially the property display 
+            screen, and encouraged exploring video integration.</strong></p>
+        <h2>Future Changes</h2>
+        <p>- Building out sellers page to evaluate seller experiences. The CEO did not provide 
+            in-depth feedback when we asked about how seller's operate on the platform, so we 
+            focused on the user experiences of home-buyers on the platform. <br></br>
+            - Adding additional listings to motivate use of AI features<br></br>
+            - We implemented the functionality of allowing a user to meet the main business goal of 
+            being able to see a listing. Going forward we would like to <strong>enhance user experience by 
+            making the search and filter functional.</strong><br></br>
+            - We would also implement the CEO's feedback, shared above.</p>
+    </div>
+
+
+    <div className="conclusion-containerp">
+        <h2>User Testing</h2>
+        <p>Once we iterated on our prototype, we conducted user tests to analyze usabiity of an essential 
+            overarching task. Our overarching task was for the user to <strong>find a home based on personal 
+            preferences and view the full listing details of a property that interests you.</strong>
+This task reflects the core functionality and user value of Bramble: helping users efficiently find homes
+ that meet their unique preferences through an AI-powered experience. Buying a home is a central use case 
+ for our platform, and allowing users to apply filters and view detailed property information directly 
+ addresses real-world user goals.</p>
+        <h2>Result</h2>
+        <p>- Users repeatedly <strong>tried to use the inactive search bar and expected more filter 
+            options</strong> for homes like schools. Many found the current filters useful but limited 
+            or non-functional, leading to <strong>confusion and frustration</strong>. <br></br>
+            - While <strong>users were intrigued by the idea of AI </strong>(especially semantic search), <strong>many 
+            couldn’t see where or how AI was integrated </strong>during their interaction. They <strong>suggested 
+            more visible emphasis and explanation of AI functionality</strong> in key touchpoints. This 
+            shows that even <strong>despite the informational section on our homepage </strong>when a user wants 
+            to buy a home <strong>they might skip over large text sections</strong>.<br></br>
+            - Users <strong>appreciated the aesthetic, friendly design and layout</strong>. After acknowledging 
+            that some features on the prototype were not functional, <strong>each user was able to navigate 
+            to the house card and complete the task.</strong></p>
+
+            <h2>User Testing Data
+            </h2>
+        <p>
+        To view our key observations from each usability test, check out{" "}
+  <a href="https://docs.google.com/document/d/1LZrO0SxZq7Ah5-p54tkY3PhWANre5nBNqb-LQDjsjP4/edit?tab=t.0#heading=h.ul0synn857bk" target="_blank" rel="noopener noreferrer">
+    this document
+  </a>. 
+</p> 
+
+
+    
+    </div>
+    <div className="conclusion-containerp">
+            <h2>Reflection</h2>
+            <p>
+            Throughout our iterative design process, our team learned the <strong>importance of 
+            balancing user needs with business goals</strong> and <strong>continuously improving based on feedback. </strong>
+            Let's quickly highlight a few key parts of this process: <p></p>
+
+1. <strong>We started with a bunch of different sketches, then combined the strongest ideas into a 
+wireframe </strong>that aligned with Bramble’s business goals. <br></br>
+2. <strong>After presenting to our TA, we made improvements </strong>like turning our home 
+screen into a scrollable page, adding clearer visual structure, and making 
+elements like listing cards more obviously clickable. <br></br>
+3. <strong>We recognized a recurring challenge as users struggled to understand how AI was 
+integrated </strong>into the company. So we reached out to the CEO and learned more about the 
+AI features. Now that we were better informed <strong>we decided to include a section explaining
+ Bramble’s AI workflows </strong>on the landing page.<br></br>
+4. <strong>User testing ensured the functionality of our hifi prototype </strong>and allowed us to see 
+the interactions of those not familiar with the class or project! <br></br>
+5. <strong>We then reached out to the CEO again to share our final prototype and get his 
+feedback.</strong> Although we did not have the time to implement the changes he suggested we 
+were satisfied with the positive comments he made and that he felt like we accurately 
+conveyed his mission and business goals. <p></p>
+Overall, we learned to appreciate the collaboration and back and forth nature of designing 
+a functional application. If we had more time, we would focus on making the product more 
+interactive. <strong>This project taught us a lot about designing with users in mind and being open to 
+change along the way to increase the memorability, learnability and efficiency of an application.</strong>
+            </p>
+    </div>
         </section>
   );
 }
