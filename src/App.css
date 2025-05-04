@@ -297,6 +297,16 @@
   margin: 10px 0;
 }
 
+.redesign-section .style-guidep{
+  width: 94%;
+  padding: 30px 30px; 
+  background-color: #c3b6d5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px 0;
+  align-items: center;
+}
+
 .tables-description{
   padding-bottom: 10px;
   text-align: left;
@@ -439,7 +449,6 @@
   margin-top: 10px;
 }
 
-
 /* Arrow */
 .project-section .arrow {
   font-size: 24px;
@@ -544,7 +553,7 @@
   padding: 20px;
 }
 
-.personas-section .carousel-wrapper {
+.personas-section .carousel-wrapper, .redesign-section .carousel-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -561,7 +570,17 @@
   height: 500px; 
 }
 
-.personas-section .carousel img {
+.redesign-section .carousel {
+  background-color: #c3b6d5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 700px; 
+  height: 500px; 
+}
+
+.personas-section .carousel img, .redesign-section .carousel img {
   width: 550px;
   height: auto;
   object-fit: cover;  /* Ensures images keep the same aspect ratio */
@@ -593,15 +612,36 @@
   transform: translateY(-50%);
 }
 
-.personas-section .arrow.left {
+.redesign-section .arrow{
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 10px;
+  color: black;
+  transition: 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.personas-section .arrow.left{
   left: 300px;
 }
 
-.personas-section .arrow.right {
+.personas-section .arrow.right{
   right: 300px;
 }
 
-.personas-section .arrow:hover {
+.redesign-section .arrow.left{
+  left: 100px;
+}
+
+.redesign-section .arrow.right{
+  right: 100px;
+}
+
+.personas-section .arrow:hover, .redesign-section .arrow:hover {
   color: #919191;
 }
 
@@ -928,6 +968,23 @@
   text-align: left;
 }
 
+.redesign-section .conclusion-containerp {
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  width: 1100px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  background-color: #f4f1ff;
+  padding: 20px; 
+  text-align: left;
+}
+
 .redesign-section .conclusion-container h2{
+  text-align: center;
+}
+
+.redesign-section .conclusion-containerp h2{
   text-align: center;
 }

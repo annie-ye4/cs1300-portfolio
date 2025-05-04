@@ -7,6 +7,7 @@ import Project from "./sections/Project";
 import About from "./sections/About";
 import Personas from "./sections/Personas";
 import Redesign from "./sections/Redesign";
+import Iterative from "./sections/Iterative";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScrollToHash from "./components/ScrollToHash"; // Import the helper
 
@@ -27,6 +28,7 @@ function App() {
                 <Project />
                 <Personas />
                 <Redesign />
+                <Iterative />
                 {/* <About /> */}
               </>
             }

@@ -1,13 +1,13 @@
-import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+// import React, { useState } from "react";
+// import { useNavigate } from "react-router-dom";
 
 function Project() {
-  const navigate = useNavigate();
-  const [isExpanded, setIsExpanded] = useState(false);
+  // const navigate = useNavigate();
+  // const [isExpanded, setIsExpanded] = useState(false);
 
-  const toggleExpand = () => {
-    setIsExpanded(!isExpanded);
-  };
+  // const toggleExpand = () => {
+  //   setIsExpanded(!isExpanded);
+  // };
 
   return (
     <section id="project" className="project-section">

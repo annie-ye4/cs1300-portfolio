@@ -14,7 +14,7 @@ function Navbar() {
       <button onClick={() => scrollToSection("project")}>accessible components</button>
       <button onClick={() => scrollToSection("personas")}>personas & storyboarding</button>
       <button onClick={() => scrollToSection("redesign")}>redesign</button>
-      {/* <button onClick={() => scrollToSection("about")}>about</button> */}
+      <button onClick={() => scrollToSection("iterative")}>iterative redesign</button>
     </nav>
   );
 }
